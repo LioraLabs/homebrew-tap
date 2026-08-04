@@ -1,29 +1,29 @@
-# Generated from the v0.5.0 SHA256SUMS. See README.md to refresh.
+# Generated from the v0.6.0 SHA256SUMS. See README.md to refresh.
 class Cliban < Formula
   desc "Self-hosted, agent-first kanban for the terminal"
   homepage "https://github.com/LioraLabs/cliban"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.5.0/cliban-v0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b9dfa0917cbaab4a4ea015c8e7e8998f7a4d3cf271dd3417a79c60425b5cba81"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.6.0/cliban-v0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "6b31e0e055eab96e4cfec6e1086883d7a992b7f740e52c7e6c58542511495657"
     end
     on_intel do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.5.0/cliban-v0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "368f73e930689fd166b414d87c2447e6dafd65f5490b7db83fccd48d30726d3c"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.6.0/cliban-v0.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "2f6bdc4fc36660bfe308f6a565a09ed4d869c27dd5a0f31393636db030d77897"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.5.0/cliban-v0.5.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "97a348b6efb35e45362dc7927ba362c71e153d242d18abdd570e2290a79f3c39"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.6.0/cliban-v0.6.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "6033f7685ee0753a6d10b3622f99ff8d2283705c32a2fed0d824e10a7c211caf"
     end
     on_intel do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.5.0/cliban-v0.5.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "31d4aace1e446087130cdef03643213b9fa2c9f577f4884885eef60f7822e171"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.6.0/cliban-v0.6.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "b0ffba5b24cbbae2fab66f8911761a82bed25872129f6c447168071f707b2d7a"
     end
   end
 
