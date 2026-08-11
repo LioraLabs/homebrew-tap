@@ -1,29 +1,29 @@
-# Generated from the v0.8.0 SHA256SUMS. See README.md to refresh.
+# Generated from the v0.9.0 SHA256SUMS. See README.md to refresh.
 class Cliban < Formula
   desc "Self-hosted, agent-first kanban for the terminal"
   homepage "https://github.com/LioraLabs/cliban"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.8.0/cliban-v0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ea9e851372d5ca27733688f6ab5d6c593e1d5b872e24538bcd97fcd7bde39083"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.9.0/cliban-v0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e04a9037970ec010840451919e1d5b6382f5c973f9558617137f8d9fcd540a85"
     end
     on_intel do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.8.0/cliban-v0.8.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1f5d5e41726ba212f96c7d8c9aa8119bf6dc77fba054e025a4b2ce15c8d21665"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.9.0/cliban-v0.9.0-x86_64-apple-darwin.tar.gz"
+      sha256 "efda57d4d90031c62df5eb590f9a8af920d274a4a31596c750dafab2d9f03c91"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.8.0/cliban-v0.8.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "09f34e51616e25999c3a3ce079c6ecc625fbef6b3a951fff1de7ae0396d6a256"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.9.0/cliban-v0.9.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "2adb51b55530293c28d926cbefb93372c7433ae259c312bbc9b7e15c61d4c2e0"
     end
     on_intel do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.8.0/cliban-v0.8.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b28bd130abee36fb0546a136e299d8b96123095ad5d43229cee5385dc601a5c2"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.9.0/cliban-v0.9.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "3e3b56dc347fdda5d6dba0a623c5158ed536fc54dd0d84202ba75a254a4fd9ab"
     end
   end
 
