@@ -1,29 +1,29 @@
-# Generated from the v0.7.1 SHA256SUMS. See README.md to refresh.
+# Generated from the v0.8.0 SHA256SUMS. See README.md to refresh.
 class Cliban < Formula
   desc "Self-hosted, agent-first kanban for the terminal"
   homepage "https://github.com/LioraLabs/cliban"
-  version "0.7.1"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.7.1/cliban-v0.7.1-aarch64-apple-darwin.tar.gz"
-      sha256 "f3ac26d4d3e12f207ea067f8ceabf19a4bbd17477bff0463d384e942f919fdca"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.8.0/cliban-v0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ea9e851372d5ca27733688f6ab5d6c593e1d5b872e24538bcd97fcd7bde39083"
     end
     on_intel do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.7.1/cliban-v0.7.1-x86_64-apple-darwin.tar.gz"
-      sha256 "98a56a05759ec0bcf22888c09eaaf9fbbc3505f5dd66356e026d3461f7362e9f"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.8.0/cliban-v0.8.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1f5d5e41726ba212f96c7d8c9aa8119bf6dc77fba054e025a4b2ce15c8d21665"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.7.1/cliban-v0.7.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f5ceb2db5bf0de2a5ba0e8159e21a8f9054b95f6f9140ebca21c7832519c5afe"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.8.0/cliban-v0.8.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "09f34e51616e25999c3a3ce079c6ecc625fbef6b3a951fff1de7ae0396d6a256"
     end
     on_intel do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.7.1/cliban-v0.7.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "056f597dd6145b793e4a7131d85e5ebc3f63ca14f55e3a474e70d6d46377471c"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.8.0/cliban-v0.8.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "b28bd130abee36fb0546a136e299d8b96123095ad5d43229cee5385dc601a5c2"
     end
   end
 
