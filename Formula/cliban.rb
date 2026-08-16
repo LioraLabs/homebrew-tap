@@ -1,29 +1,29 @@
-# Generated from the v0.13.0 SHA256SUMS. See README.md to refresh.
+# Generated from the v0.14.0 SHA256SUMS. See README.md to refresh.
 class Cliban < Formula
   desc "Self-hosted, agent-first kanban for the terminal"
   homepage "https://github.com/LioraLabs/cliban"
-  version "0.13.0"
+  version "0.14.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.13.0/cliban-v0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2fd1c4605dc5f01b2fe61c8853c1798527740428fb371ef1a3a117fac62661d8"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.14.0/cliban-v0.14.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f7d580c5b1ada855f8499ed55074480ac64f95c0be04569471dc24657ac629ae"
     end
     on_intel do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.13.0/cliban-v0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7e093788f6988c0c7907f3ed710754b2ab73c42d6532782bfec9d4c911037234"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.14.0/cliban-v0.14.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a51ec9bcd5d0699dea5e8bb065240a088fc6a326170d35d299eb53f91dc1a642"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.13.0/cliban-v0.13.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9cae7f6bf775ebdc1eba5064fd9bc60b922e2d8a61a70c484af282a71ef16ad4"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.14.0/cliban-v0.14.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "60170fbf98cf8cc457ae420387e5b4c57aac348539c5e0f36d18429f29c2de0e"
     end
     on_intel do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.13.0/cliban-v0.13.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d445643d5313f6561dbdc373a1144b637105a3239c3ebde8f904909cb0c58973"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.14.0/cliban-v0.14.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "984684ac5aa17f3ba6f6431f255ea52b583f4e5f3c24cb57294c56b6885ee220"
     end
   end
 
