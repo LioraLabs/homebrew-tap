@@ -1,29 +1,29 @@
-# Generated from the v0.15.0 SHA256SUMS. See README.md to refresh.
+# Generated from the v0.16.0 SHA256SUMS. See README.md to refresh.
 class Cliban < Formula
   desc "Self-hosted, agent-first kanban for the terminal"
   homepage "https://github.com/LioraLabs/cliban"
-  version "0.15.0"
+  version "0.16.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.15.0/cliban-v0.15.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f34da8edb74c1473f99d40d4ccb3306ebe37a12c64b2d3d98fbe861b1ffb3e9d"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.16.0/cliban-v0.16.0-aarch64-apple-darwin.tar.gz"
+      sha256 "6d71530ad0c16d2bb0f64bfd66e3c001374d051a859b2a53a742d2d052354c45"
     end
     on_intel do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.15.0/cliban-v0.15.0-x86_64-apple-darwin.tar.gz"
-      sha256 "60b67bb86bee466d3053b0034d7f18a742f1e701e0c83ce4e75e6d799cf59fe6"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.16.0/cliban-v0.16.0-x86_64-apple-darwin.tar.gz"
+      sha256 "82610284544ffe3a145bfbc6a9b30d827210463a2297932ce8798dd95be859c4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.15.0/cliban-v0.15.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0ba0ae3dafc960b1c96938282eb2bed0cb44f0a0a6e0a9b73300211eb4c376fe"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.16.0/cliban-v0.16.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "f4cc3470ee76b2b94b1559a827a2095b54de5f88d9290f2ce0f5f10359e4017a"
     end
     on_intel do
-      url "https://github.com/LioraLabs/cliban/releases/download/v0.15.0/cliban-v0.15.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e344786e4b21c8415e2811603517d3893cfe92a961faf38cb4c6a2fb6194972d"
+      url "https://github.com/LioraLabs/cliban/releases/download/v0.16.0/cliban-v0.16.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "754aea0217d3539f7a4c422a32502c94509d102734413e99c0a8099c02b79fa9"
     end
   end
 
